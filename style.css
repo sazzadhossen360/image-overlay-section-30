@@ -1,0 +1,90 @@
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover { text-decoration: none }
+a:focus { outline: 0 solid; text-decoration: none}
+img {
+    max-width: 100%;
+    height: auto;
+}
+input:focus, button:focus, textarea:focus, a:focus {outline: none}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+p:last-child {
+    margin-bottom: 0
+}
+/* ==================start style============================== */
+.section-padding{
+    padding: 80px 0;
+}
+body{
+    color: #B1B1B2;
+}
+h1{
+   
+    color: #A4A4A4;
+}
+.bigger-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 0 50px;
+}
+.bigger-text h1 {
+    font-size: 45px;
+    line-height: 1.1;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+a.boxed-btn {
+    background: #4752E9;
+    padding: 10px 20px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 15px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.image-gallary{
+    padding-top: 50px;
+}
+.image-gallary img {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    box-shadow: 0 0 50px #C3C3C5;
+}
+.image-gallary img:nth-child(1) {
+    top: -50px;
+}
+.image-gallary img:nth-child(2), .image-gallary img:nth-child(3) {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.image-gallary img:nth-child(2){
+    z-index: 2;
+}
+.image-gallary img:nth-child(3) {
+    z-index: 3;
+    width: 70%;
+    right: auto;
+    left: -13px;
+    bottom: -60px;
+}
